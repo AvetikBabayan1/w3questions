@@ -1,0 +1,5 @@
+userinput= input("Enter numbers with , as separator: ")
+inputList = userinput.split(",")
+inputTuple = tuple(inputList)
+print(inputTuple)
+print(inputList)
